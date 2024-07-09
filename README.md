@@ -77,6 +77,7 @@ This project is developed by the team **Ctrl Freaks** for the Bank of Baroda Hac
 
    </p>
  </table>
+ 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
