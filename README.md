@@ -64,7 +64,7 @@ This project is developed by the team **Ctrl Freaks** for the Bank of Baroda Hac
 - **Integrate with Bank Systems**: Connect the chatbot to Bank of Baroda's systems for real-time data retrieval and transactions.
 - **Deploy the Chatbot**: Host the chatbot on a server and create a user-friendly interface for customers.
 
-## Team
+## Team - Ctrl Freaks
 
  <table>
   <p align="center">
