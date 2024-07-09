@@ -1,0 +1,327 @@
+{
+    "intents":[
+        {"tag":"greetings",
+        "patterns":["hey there ","how are you?","Is anyone there?","how is everything"],
+        "responses":["hello","good to see you again","hey","hey you"],
+        "context":[""]
+        },
+        {"tag":"goodbye",
+        "patterns":["bye","See you","Goodbye","Nice meeting you"],
+        "responses":["See you","Have a great day","bye","bye-bye"],
+        "context":[""]
+        },
+        {"tag":"thanks",
+        "patterns":["thanks","Thank you","that was really helpful","that is really helpful"],
+        "responses":["my pleasure","you are welcome"],
+        "context":[""]
+        },
+        {"tag":"query",
+        "patterns":["does god exist"],
+        "responses":["The existence of God is a subject of debate in the philosophy of religion. A wide variety of arguments for and against the existence of God can be categorized as logical, empirical, metaphysical, subjective or scientific. "],
+        "context":[""]
+        },
+        {"tag":"finance", 
+         "patterns": ["What is the current inflation rate in your country?"],
+         "responses":[ "Less than 1%","1% - 3%","3% - 5","More than 5%"],
+         "context":[""]
+        },
+        {"tag": "finance",
+        "patterns": ["What is your current income level?"],
+        "responses": ["Low income","Middle income","High income"],
+        "context":[""]
+        },
+        {
+        "tag":"finance", 
+        "patterns":[ "What is the current inflation rate in your country?"],
+        "responses": [ "Less than 1%","1% - 3%","3% - 5%","More than 5%"],
+        "context":[""]    
+        },
+        {
+        "tag": "finance",
+        "pattern": ["What is your current income level?"],
+        "responses": ["Low income","Middle income","High income"],
+        "context":[""]
+        },
+        {
+        "tag": "finance",
+        "pattern": ["How do you manage your savings?"],
+        "responses": ["Savings account","Investments (stocks, bonds, etc.)","Real estate","Other (specify)"],
+        "context":[""] 
+        },
+        {
+        "tag": "finance",
+        "pattern": ["What is your attitude towards financial risk?"],
+        "responses": ["Very risk-averse","Moderately risk-aver","Moderately risk-tolerant","Very risk-tolerant"],
+        "context":[""] 
+        },
+        {
+        "tag": "finance",
+        "pattern": ["Are you currently saving for retirement?"],
+        "responses": [
+                  "Yes",
+                  "No",
+                  "Not sure"
+                ],
+        "context":[""] 
+        },
+        {
+        "tag": "finance",
+        "pattern": ["What percentage of your income do you save each month?"],
+        "responses": [
+                  "Less than 10%",
+                  "10% - 20%",
+                  "20% - 30%",
+                  "More than 30%"
+                ],
+        "context":[""] 
+        },
+        {
+                "tag": "finance",
+                "pattern": ["Do you have an emergency savings fund?"],
+                "responses": [
+                  "Yes",
+                  "No",
+                  "Working on it"
+                ],
+                "context":[""] 
+        },
+        {
+                "tag": "finance",
+                "pattern": ["How often do you review your financial investments?"],
+                "responses": [
+                  "Daily",
+                  "Weekly",
+                  "Monthly",
+                  "Less frequently"
+                ],
+        "context":[""] 
+        },
+        {
+                "tag": "finance",
+                "pattern":[ "What is your preferred method of budgeting?"],
+                "responses": [
+                  "Traditional (pen and paper)",
+                  "Spreadsheet",
+                  "Budgeting app",
+                  "Don't budget"
+                ],
+                "context":[""] 
+        },
+        {
+                "tag": "finance",
+                "pattern":["How would you rate your knowledge of personal finance?"],
+                "responses": [
+                  "Novice",
+                  "Intermediate",
+                  "Advanced"
+                ],
+                "context":[""]
+
+              },
+              {
+                "tag": "finance",
+                "pattern": ["Do you have any outstanding debt?"],
+                "responses": [
+                  "Yes, credit card debt",
+                  "Yes, student loans",
+                  "Yes, mortgage",
+                  "No, debt-free"
+                ], 
+                "context":[""] 
+              },
+              {
+                "tag": "finance",
+                "pattern": "Have you invested in cryptocurrencies?",
+                "responses": [
+                  "Yes",
+                  "No",
+                  "Considering it"
+                
+                ],
+                "context":[""] 
+              },
+              {
+                "tag": "finance",
+                "pattern": "What is your primary financial goal?",
+                "responses": [
+                  "Saving for a house",
+                  "Paying off debt",
+                  "Retirement planning",
+                  "Investing for growth"
+                ],
+                "context":[""] 
+              },
+              {
+                "tag": "finance",
+                "pattern": "How important is it for you to have a steady income?",
+                "responses": [
+                  "Very important",
+                  "Somewhat important",
+                  "Not very important",
+                  "Not important at all"
+                ],
+                "context":[""] 
+              },
+              {
+                "tag": "finance",
+                "pattern": "Are you familiar with basic investment concepts (e.g., diversification, risk/reward)?",
+                "responses": [
+                  "Yes, very familiar",
+                  "Somewhat familiar",
+                  "Not very familiar",
+                  "Not at all familiar"
+                ],
+                "context":[""] 
+              },
+              {
+                "tag": "finance",
+                "pattern": "Do you have a financial advisor or planner?",
+                "responses": [
+                  "Yes",
+                  "No, considering it",
+                  "No, prefer self-management"
+                ],
+                "context":[""] 
+              },
+              {
+                "tag": "finance",
+                "pattern": "Have you experienced a significant financial setback in the past year?",
+                "responses": [
+                  "Yes",
+                  "No"
+                ],
+                "context":[""] 
+              },
+              {
+                "tag": "finance",
+                "pattern": "What is your approach to managing credit cards?",
+                "responses": [
+                  "Pay off balance monthly",
+                  "Pay minimum due",
+                  "Use for emergencies only",
+                  "Don't use credit cards"
+                ],
+                "context":[""] 
+              },
+              {
+                "tag": "finance",
+                "pattern": "How do you track your expenses?",
+                "responses": [
+                  "Manual record keeping",
+                  "Expense tracking app",
+                  "Bank statements",
+                  "Don't track expenses"
+                ],
+                "context":[""] 
+              },
+              {
+                "tag": "finance",
+                "pattern": "Are you planning to purchase life insurance?",
+                "responses": [
+                  "Yes",
+                  "No, not planning to",
+                  "Considering it"
+                ],
+                "context":[""] 
+              },
+              {
+                "tag": "finance",
+                "pattern": "What is your investment horizon?",
+                "responses": [
+                  "Short-term (1-5 years)",
+                  "Medium-term (5-10 years)",
+                  "Long-term (10+ years)"
+                ],
+                "context":[""] 
+              },
+              {
+                "tag": "finance",
+                "pattern": "How do you approach financial decisions?",
+                "responses": [
+                  "Analyze thoroughly",
+                  "Seek advice from others",
+                  "Go with gut feeling",
+                  "Avoid making decisions"
+                ],
+                "context":[""] 
+              },
+              {
+                "tag": "finance",
+                "pattern": "Are you familiar with tax-saving investment options?",
+                "responses": [
+                  "Yes, very familiar",
+                  "Somewhat familiar",
+                  "Not very familiar",
+                  "Not at all familiar"
+                ],
+                "context":[""] 
+              },
+              {
+                "tag": "finance",
+                "pattern": "Have you made a will or estate plan?",
+                "responses": [
+                  "Yes",
+                  "No, planning to",
+                  "No, not planning to"
+                ],
+                "context":[""] 
+              },
+              {
+                "tag": "finance",
+                "pattern": "How do you handle unexpected financial expenses?",
+                "responses": [
+                  "Use emergency fund",
+                  "Use credit cards",
+                  "Borrow from family/friends",
+                  "Don't have a plan"
+                ],
+                "context":[""] 
+              },
+              {
+                "tag": "finance",
+                "pattern": "What is your preferred retirement age?",
+                "responses": [
+                  "Early retirement (before 60)",
+                  "Standard retirement age (60-65)",
+                  "Late retirement (after 65)"
+                ],
+                "context":[""] 
+              },
+              {
+                "tag": "finance",
+                "pattern": "How often do you review your financial goals?",
+                "responses": [
+                  "Regularly (monthly/quarterly)",
+                  "Annually",
+                  "Rarely",
+                  "Never"
+                ],
+                "context":[""] 
+              },
+              {
+                "tag": "finance",
+                "pattern": "Do you invest in socially responsible or ethical investments?",
+                "responses": [
+                  "Yes, always",
+                  "Sometimes",
+                  "No",
+                  "Not sure what they are"
+                ],
+                "context":[""] 
+              },
+              {
+                "tag": "finance",
+                "pattern": "What is your strategy for managing market downturns?",
+                "responses": [
+                  "Stay invested for the long term",
+                  "Sell investments to cut losses",
+                  "Buy more investments at lower prices",
+                  "Don't have a strategy"
+                ],
+                "context":[""] 
+              }
+             
+              
+            ]    
+            
+}
