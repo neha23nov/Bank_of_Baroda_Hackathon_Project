@@ -57,6 +57,11 @@ This project is developed by the team **Ctrl Freaks** for the Bank of Baroda Hac
 - **Model Training**: Developed and trained a neural network model using TensorFlow and Keras.
 - **Response Handling**: Implemented functions to predict the class of the input sentence and retrieve appropriate responses.
 
+Current Status:
+<p align="center">
+  <img src="Assets/Images/Model1.png" style="width: 90%;">
+</p>
+
 ## Next Steps
 
 - **Improve Model Accuracy**: Enhance the model by fine-tuning hyperparameters and expanding the dataset.
