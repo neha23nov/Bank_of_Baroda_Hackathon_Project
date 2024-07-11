@@ -1,4 +1,4 @@
-# Bank of Baroda Chatbot Project
+# Bank of Baroda Project
 
 ## Project Overview
 
